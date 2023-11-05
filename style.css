@@ -1,11 +1,20 @@
-main {
-    color: rgb(235, 238, 144);
+html {
+    background-image: url("foto.jpeg");
 }
 
-body {
-    background: rgb(153, 153, 255);
+main {
+    color: rgb(235, 238, 144);
+    
 }
 
 h2 {
     color: #fff;
+}
+
+a {
+    color: goldenrod;
+}
+
+section a {
+    color: lightblue;
 }
