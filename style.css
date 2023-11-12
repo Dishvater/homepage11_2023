@@ -1,7 +1,6 @@
 html {
-    background-image: url("foto.jpeg");
+    background-color: black;
 }
-
 main {
     color: rgb(235, 238, 144);
     
@@ -17,4 +16,8 @@ a {
 
 section a {
     color: lightblue;
+}
+
+footer {
+    color: wheat;
 }
