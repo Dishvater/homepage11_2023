@@ -1,10 +1,35 @@
 html {
-    background-color: black;
+    background-image: url("/foto.jpeg");
 }
 main {
-    color: rgb(235, 238, 144);
+    color: yellowgreen;
     padding: 16px;
+    padding-top: 50px;
     
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: tomato;
+    height: 20px;
+    padding: 16px;
+}
+
+nav a {
+    color: rgb(235, 238, 144);
+    padding-left: 50px;
+}
+
+nav a:hover {
+    color: rgb(10, 10, 10);
+}
+
+h1 {
+    color: rgb(235, 238, 144);
 }
 
 h2 {
@@ -19,6 +44,20 @@ section a {
     color: lightblue;
 }
 
+article {
+    padding: 20px;
+}
+
 footer {
     color: wheat;
+}
+
+.footer__top-link {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    display: block;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
 }
