@@ -1,26 +1,39 @@
 html {
     background-image: url("/foto.jpeg");
+    background-attachment: fixed;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
+
+
 main {
-    color: yellowgreen;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50vw;
+    color: black;
     padding: 16px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
+    margin-top: 50px;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
     
 }
 
 .header {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
 
 nav {
-    background-color: tomato;
+    /* background-image: url("/foto.jpeg"); */
+    background-color: rgba(0, 0, 0, 0.5);
     height: 20px;
     padding: 16px;
+    border-radius: 0.5rem;
 }
 
 nav a {
-    color: rgb(235, 238, 144);
+    color: white;
     padding-left: 50px;
 }
 
@@ -29,11 +42,11 @@ nav a:hover {
 }
 
 h1 {
-    color: rgb(235, 238, 144);
+    color: black;
 }
 
 h2 {
-    color: #fff;
+    color: purple;
 }
 
 a {
@@ -41,15 +54,27 @@ a {
 }
 
 section a {
-    color: lightblue;
+    color: darkgreen;
 }
 
 article {
     padding: 20px;
 }
 
+.my-article__list {
+    list-style-type: circle;
+}
+
+.my-article__olist {
+    list-style-type: lower-alpha;
+}
+
 footer {
     color: wheat;
+}
+
+.footer__content {
+    padding: 16px;
 }
 
 .footer__top-link {
@@ -59,5 +84,5 @@ footer {
     display: block;
     background-color: black;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 0.5rem;
 }
