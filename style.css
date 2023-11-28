@@ -26,6 +26,8 @@ main {
 
 nav {
     /* background-image: url("/foto.jpeg"); */
+    display: flex;
+    justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.5);
     height: 20px;
     padding: 16px;
@@ -34,7 +36,8 @@ nav {
 
 nav a {
     color: white;
-    padding-left: 50px;
+    text-decoration: none;
+    /* padding-left: 50px; */
 }
 
 nav a:hover {
