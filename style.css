@@ -1,5 +1,5 @@
 html {
-    background-image: url("/photo1.jpeg");
+    background-image: url("/photo3.png");
     background-attachment: fixed;
     /* background-color: rgba(0, 0, 0, 0.5); */
     background-repeat: no-repeat;
@@ -8,13 +8,13 @@ html {
 
 
 main {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 50vw;
+    background-color: rgba(255, 255, 255, 0.7);
+    min-width: 50vw;
     color: black;
     padding: 16px;
     /* padding-top: 50px; */
     margin-top: 50px;
-    margin-left: 2rem;
+    margin: 2rem;
     border-radius: 0.5rem;
     
 }
