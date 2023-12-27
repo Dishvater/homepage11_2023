@@ -23,31 +23,59 @@ main {
     /* position: sticky; */
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: left;
     top: 0;
 }
 
 nav {
+    width: 100vw; ;
+}
+
+nav ul{
     /* background-image: url("/foto.jpeg"); */
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.5);
     height: 40px;
-    flex-grow: 1;
+    margin-top: 0;
+    
     /* padding: 16px; */
     /* border-radius: 0, 0.5rem, 0, 0.5rem; */
     align-items: center;
+    
 }
 
-nav a {
+nav li {
     color: white;
     text-decoration: none;
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    border-right: 2px solid white;
     /* padding-left: 50px; */
 }
 
-nav a:hover {
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 16px;
+    /* padding-left: 50px; */
+}
+
+nav li a:hover {
     color: rgb(10, 10, 10);
 }
+
+/* nav a:not(:last-child) {
+    border-right: 1px solid #ccc;
+    padding-right: 5vw;
+} */
 
 .navLogo {
     width: 10vw;
@@ -59,6 +87,11 @@ nav a:hover {
 
 a {
     color: goldenrod;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
 }
 
 section a {
@@ -87,6 +120,8 @@ footer {
 
 .footer__top-link {
     position: fixed;
+    color: white;
+    text-decoration: none;
     bottom: 16px;
     right: 16px;
     display: block;
